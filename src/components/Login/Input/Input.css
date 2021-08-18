@@ -1,0 +1,42 @@
+.input-container{
+    width: 100%;
+    }
+
+.regular-style{
+    width: 100%;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    padding: 0 200px 0 25px;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    color: black;
+    font-size: 14px;
+    outline: none;
+}
+
+.regular-style::placeholder {
+    font-size: 14px;
+    color: gray;
+    opacity: 0 8;
+    padding-left: 0px;
+}
+
+.input-error {
+    border: 1px solid red;
+    color: red;
+    background: rgb(206, 178, 178);
+    width: 100%;
+    height: 35px;
+    border-radius: 16px;
+    padding: 0 60px 0 25px;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-error:::placeholder {
+    color: red;
+    padding-left: 25px;
+}
